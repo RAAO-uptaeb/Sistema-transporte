@@ -1,0 +1,16 @@
+/* estilos base */
+@import "1-base/base-elements.css";
+/* elementos que definen donde van posicionados los elementos */
+@import "2-layout/base-layout.css";
+@import "2-layout/menu.css";
+@import "2-layout/header.css";
+@import "2-layout/cards.css";
+/* modulos */
+@import "3-modulos/login-box.css";
+@import "3-modulos/form.css";
+@import "3-modulos/tablas.css";
+@import "3-modulos/cambiar_contrasena.css";
+/* estados */
+@import "4-estados/animaciones.css";
+
+

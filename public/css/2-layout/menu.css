@@ -1,0 +1,30 @@
+#menu{
+   text-align: center;
+  width: 100%;
+  font-family: Arial;
+  font-size: 12px;
+  background-color: #254547;
+}
+#menu ul{
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li{
+  display: inline-block;
+}
+#menu ul li a{
+  padding: 15px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  border-radius:50px;
+  background-color: #0b6daa;
+  display:inline-block;
+  color:#fff;
+}
+
+

@@ -1,0 +1,52 @@
+@keyframes mostrar {
+  0% {
+  }
+  15% {
+    height: auto;
+    visibility: hidden;
+    opacity: 0;
+  }
+  20% {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+  90% {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+  95% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    height: auto;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.5,0.5);
+  }
+  20% {
+    visibility: hidden;
+    opacity: 0;
+    height: auto;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transform: scale(1,1);
+  }
+}
+
+.mensaje-button:hover{
+  background: #333;
+  box-shadow: 0 0 5px #333;
+  transition: all ease 0.2s;
+}

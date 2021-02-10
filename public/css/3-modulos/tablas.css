@@ -1,0 +1,108 @@
+.flex{
+  display: flex;
+}
+
+.tabla {
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  height: auto;
+  min-width: 150px;
+  background: rgba(3, 3, 3, 0.7);
+  border-radius: 0px;
+  overflow: hidden;
+  margin: 0 10px;
+  animation-name: aparecer;
+  animation-duration: 1s;
+}
+
+
+.overflow {
+  max-height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.tabla-titulo {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+ font-size: 1.5em;
+  padding: 10px 0;
+  background: #f56f3a; 
+}
+
+.tabla table {
+  padding: 10px;
+  border-collapse: collapse;
+ margin: auto;
+}
+
+.tabla td,
+.tabla th {
+  text-align: center;
+  border: 2.2px solid #aaa;
+  color: #222;
+  height: 30px;
+  padding: 0 10px;
+}
+.tabla th {
+  background: rgba(3, 3, 3, 0.7);
+  color: #fff;
+}
+
+.tabla tr{
+  background: #eee;
+}
+.tabla tr:hover{
+  background: #ddd;
+}
+
+.tabla td .crud {
+  text-decoration: none;
+  margin: 5px 0;
+  color: #fff;
+  background: rgba(3, 3, 3, 0.7);
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all ease .2s;
+}
+.tabla td .crud:hover {
+  background:#0b6daa ;
+  cursor: pointer;
+}
+
+.tabla .bottom {
+  padding: 15px;
+  color: #fff;
+  text-align: right;
+}
+.tabla .bottom a{
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background: #0b6daa;
+  transition: all ease .5s;
+}
+.tabla .bottom a:hover{
+  background: #254547;
+}
+
+.tabla tbody {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tabla .vacio {
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}

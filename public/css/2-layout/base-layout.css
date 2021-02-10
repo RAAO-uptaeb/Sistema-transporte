@@ -1,0 +1,97 @@
+/************************************************************
+                      ESTILOS PARA BODY
+   *************************************************************/
+body {
+  height: 100vh;
+  margin: auto;
+  /* Si el monitor en el que estan viendo la pagina es muy grande le ponemos un tamaño maximo */
+background-image: url(../../img/fondo.png);
+background-repeat: no-repeat;
+background-size:100% 100%;
+background-attachment: fixed;
+
+}
+/************************************************************
+                        ESTILOS PARA MENU
+     *************************************************************/
+.container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+}
+
+main {
+  min-height: 360px;
+  flex: 1 1 auto;
+  align-self: stretch;
+  /* posicion para elementos dentro de el */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.text-header {
+  background: #0b6daa;
+  text-align: center;
+  color: #eee;
+  height: 40px;
+  line-height: 40px;
+  font-family: helvetica, sans-serif;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.centrar {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.esquinas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.horizontal {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+textarea {
+  font-size: 1em;
+  
+  width: 100%;
+  display: block;
+  border: none;
+}
+.margin-lados {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+
+
+
+.inline {
+  display: inline-block;
+}
+
+.contenedor {
+  flex-basis: calc(100% - 60px);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}

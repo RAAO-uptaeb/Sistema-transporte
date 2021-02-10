@@ -1,0 +1,12 @@
+<?php
+
+  define('URL', 'http://sistemaut.byethost10.com/UT/');
+
+  define('HOST', 'sql308.byethost10.com');
+  define('DB', 'mysql');
+  define('DBNAME', 'b10_26907918_UT');
+  define('USER', 'b10_26907918');
+  define('PASS', 'Sistemaut400');
+  define('CHARSET', 'utf8');
+ 
+?>

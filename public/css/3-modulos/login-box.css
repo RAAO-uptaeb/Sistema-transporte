@@ -1,0 +1,94 @@
+
+.login {
+   background: #254547;
+  border-radius: 5px;
+  width: 400px;
+  height: 275px;
+  box-shadow: 0px 9px 10px 2px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.login__restaurar {
+  margin-top: 50px;
+  background: #254547;
+  border-radius: 5px;
+  width: 400px;
+  height: 320px;
+  box-shadow: 0px 9px 10px 2px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  padding-top: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.loign__form {
+  width: 300px;
+  padding-left: 40px;
+}
+
+.img_logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px 175px 10px;
+  background: url(../../img/logo2.png) center / cover no-repeat;
+}
+
+.login input[name="usuario"],
+.login input[type="password"] {
+  font-size: 12px;
+  border-bottom: 3px solid #0b6daa;
+  margin-bottom: 20px;
+}
+.boton:hover {
+  color: #132843;
+  border-bottom: 3px solid #f56f3a;
+  cursor: pointer;
+}
+
+.login_input {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  width: 325px;
+  border-bottom: 3px solid #0b6daa;
+}
+/* Estilos para boton de input */
+
+.boton {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  width: 325px;
+  border-bottom: 3px solid #666766;
+
+  background: #0b6daa;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.restaurar {
+  text-align: center;
+  font-size: 12px;
+}
+.restaurar a {
+  color: #fff;
+  font-family: helvetica, sans-serif;
+}
+.restaurar a:hover{
+  color: #0b6daa;
+}

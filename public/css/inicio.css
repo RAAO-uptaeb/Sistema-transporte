@@ -1,0 +1,145 @@
+body {
+	background:#f2f2f2;
+}
+ 
+.main {
+
+	width:65%;
+	max-width:1000px;
+
+}
+ 
+.slides {
+	width:90%;
+}
+ 
+.slides img {
+	width:100%;
+}
+ 
+.slidesjs-pagination {
+  font-family: helvetica, sans-serif;
+	font-size: 10px;
+	background:#252932;
+	list-style:none;
+	overflow:hidden;
+}
+ 
+.slidesjs-pagination li {
+	float:left;
+}
+ 
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	text-decoration:none;
+}
+ 
+.slidesjs-pagination li a:hover {
+	background:#0b6daa;
+}
+ 
+.slides .active {
+	background:#254547;
+}
+ 
+.slidesjs-navigation{
+  font-family: helvetica, sans-serif;
+	font-size: 10px;
+	background:#254547;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 10px;
+	float:right;
+}
+.slidesjs-navigation:hover{
+background:#0b6daa;
+}
+
+
+/*PARA LA tABLA DE ALERTAS*/
+.tablaAlerta {
+	float: right;
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  height: auto;
+  min-width: 150px;
+  background: rgba(3, 3, 3, 0.7);
+  border-radius: 0px;
+  overflow: hidden;
+  margin: 0 10px;
+  animation-name: aparecer;
+  animation-duration: 1s;
+}
+.tablaAlerta table {
+  padding: 10px;
+  border-collapse: collapse;
+ margin: auto;
+}
+
+.tablaAlerta td,
+.tablaAlerta th {
+  text-align: center;
+  border: 2.2px solid #aaa;
+  color: #222;
+  height: 30px;
+  padding: 0 10px;
+}
+.tablaAlerta th {
+  background: rgba(3, 3, 3, 0.7);
+  color: #fff;
+}
+
+.tablaAlerta tr{
+  background: #eee;
+}
+.tablaAlerta tr:hover{
+  background: #ddd;
+}
+
+.tablaAlerta td .crud {
+  text-decoration: none;
+  margin: 5px 0;
+  color: #fff;
+  background: rgba(3, 3, 3, 0.7);
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all ease .2s;
+}
+.tablaAlerta td .crud:hover {
+  background:#0b6daa ;
+  cursor: pointer;
+}
+
+.tablaAlerta .bottom {
+  padding: 15px;
+  color: #fff;
+  text-align: right;
+}
+.tablaAlerta .bottom a{
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background: #0b6daa;
+  transition: all ease .5s;
+}
+.tablaAlerta .bottom a:hover{
+  background: #254547;
+}
+
+.tablaAlerta tbody {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tablaAlerta .vacio {
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
